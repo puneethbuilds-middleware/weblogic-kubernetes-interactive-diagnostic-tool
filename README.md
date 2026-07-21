@@ -1,22 +1,20 @@
-# WKID - WebLogic Kubernetes Interactive Diagnostic Tool
+# WebLogic Kubernetes Interactive Diagnostic Tool (WKID)
 
 WKID is a read-only diagnostic collection script for WebLogic Server
 domains running with the WebLogic Kubernetes Operator.
 
 WKID is intended for interactive troubleshooting and for collecting a consolidated WebLogic Kubernetes diagnostic archive.
 
-Current release candidate: `v4.20`.
+Current release: `v4.20`.
 
 ## Current production release
 
-WKID version and release information will be available from this repository's
-GitHub releases page after publishing.
+WKID v4.20 is available from this repository's GitHub Releases page.
 
 ## Documentation
 
 This README contains the primary usage documentation for WKID. Additional
-examples and troubleshooting notes can be added under repository documentation
-when the project is published.
+examples and troubleshooting notes may be added under repository documentation.
 
 ## About
 
@@ -186,7 +184,7 @@ the displayed tail.
 
 ## Validation
 
-Before publishing or after local edits, validate the script syntax:
+Before releasing or after local edits, validate the script syntax:
 
 ```bash
 bash -n ./wkid.sh
@@ -208,4 +206,9 @@ on diagnostics that are useful for WebLogic Kubernetes troubleshooting.
 
 Copyright (c) 2026 Puneeth Prakash.
 
-Choose a license before publishing this repository.
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE).
+
+## Project Status
+
+This is an independent personal project and is not affiliated with, endorsed by,
+or supported by Oracle.
