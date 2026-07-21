@@ -206,7 +206,9 @@ on diagnostics that are useful for WebLogic Kubernetes troubleshooting.
 
 Copyright (c) 2026 Puneeth Prakash.
 
-Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE).
+This project is intentionally source-available, not Apache-licensed or
+open source. The source is provided for viewing and personal or internal
+evaluation only. See [LICENSE](LICENSE) for the full terms.
 
 ## Project Status
 
